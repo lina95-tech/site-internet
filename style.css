@@ -1,0 +1,123 @@
+/* Style de base du site */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #141213;
+}
+
+/* En-tête */
+header {
+  background-color: #ff328b;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+/* Navigation */
+nav {
+  background-color: #34495e;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 15px 25px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  background-color: #5c93d3;
+}
+
+/* Sections principales */
+main {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+section h2 {
+  color: #0b0607;
+  border-bottom: 2px solid #e74a89;
+  padding-bottom: 5px;
+}
+
+section p, section ul, section form {
+  line-height: 1.6;
+}
+
+/* Articles */
+article {
+  margin-top: 20px;
+}
+
+/* Formulaire de contact */
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input[type="submit"] {
+  background-color: #d53d7f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+form input[type="submit"]:hover {
+  background-color: #16a085;
+}
+
+/* Pied de page */
+footer {
+  background-color: #dc394f;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
