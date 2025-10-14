@@ -9,18 +9,3 @@ titre.addEventListener("click", () => {
     titre.style.color = "purple";
     titre.textContent = "MARRUECO";
 })
-
-// Fait apparaître une petite animation au survol des boutons du menu
-const liens = document.querySelectorAll("nav a");
-liens.forEach(lien => {
-    lien.addEventListener("mouseenter", () => {
-        lien.style.transform = "scale(1.2)";
-        lien.style.transition = "0.3s";
-        lien.style.color = "purple";
-    });
-    lien.addEventListener("mouseleave", () => {
-        lien.style.transform = "scale(1)";
-        lien.style.color = "black";
-    });
-});
-
