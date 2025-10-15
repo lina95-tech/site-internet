@@ -7,5 +7,5 @@ window.addEventListener("load", () => {
 const titre = document.querySelector("h1");
 titre.addEventListener("click", () => {
     titre.style.color = "purple";
-    titre.textContent = "MARRUECO";
+    titre.textContent = "HUDA BEAUTY";
 })
